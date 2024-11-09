@@ -15,7 +15,7 @@ import Express from './components/Express/Express';
 import StaticResources from './components/StaticResources/StaticResources';
 import Database from './components/Database/Database';
 import Footer from './components/Footer/Footer';
-import React, { useState } from 'react';
+import React from 'react';
 
 
 function App() {
