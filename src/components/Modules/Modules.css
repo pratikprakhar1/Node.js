@@ -1,0 +1,108 @@
+/* Container Styling */
+.modules-container {
+  padding: 30px;
+  background-color: #1F2937; /* Darker background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  max-width: 800px; /* Limit width for readability */
+  margin: 20px auto; /* Center and add spacing */
+}
+
+/* Main Heading Styling */
+.modules-container h1 {
+  font-size: 2.5rem;
+  color: #32cd32; /* Bright green for emphasis */
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center; /* Center-aligned heading */
+}
+
+/* Subheading Styling */
+.modules-container h2 {
+  font-size: 1.8rem;
+  color: #ddd; /* Softer color for readability */
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #32cd32; /* Green accent */
+  font-weight: 600;
+}
+
+/* Paragraph Styling */
+.modules-container p {
+  font-size: 1.1rem;
+  color: #cfcfcf; /* Soft white for readability */
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify; /* Clean, justified text */
+}
+
+/* List Styling */
+.modules-container ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  color: #32cd32; /* Green bullet points */
+}
+
+.modules-container li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+/* Inline Code Styling */
+.modules-container code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #444;
+  color: #32cd32;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+/* Code Block Styling */
+.modules-container pre {
+  background-color: #333;
+  border-radius: 6px;
+  padding: 15px;
+  overflow-x: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #eee;
+  font-size: 1rem;
+}
+
+/* Link Styling */
+.modules-container a {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.modules-container a:hover {
+  color: #32cd32; /* Change color on hover */
+  text-decoration: underline;
+}
+
+/* Table Styling */
+.modules-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.modules-container table th,
+.modules-container table td {
+  border: 1px solid #555; /* Subtle border color */
+  padding: 12px;
+  text-align: left;
+  color: #f0f0f0; /* Light text color */
+}
+
+.modules-container table th {
+  background-color: #4caf50; /* Bright header color */
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.modules-container table tr:nth-child(even) {
+  background-color: #2d2d2d; /* Alternate row color */
+}

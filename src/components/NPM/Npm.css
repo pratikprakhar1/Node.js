@@ -1,0 +1,87 @@
+/* Container Styling */
+.npm-container {
+  padding: 30px;
+  background-color: #1F2937; /* Slightly darker background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  max-width: 800px; /* Limit width for better readability */
+  margin: 20px auto; /* Center align and add top margin */
+}
+
+/* Main Heading */
+.npm-container h1 {
+  font-size: 2.5rem;
+  color: #32cd32; /* Bright green for a vibrant look */
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Subheading Styling */
+.npm-container h2 {
+  font-size: 1.8rem;
+  color: #f0f0f0; /* Soft white for better readability */
+  margin-top: 30px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #32cd32; /* Green accent line */
+  font-weight: 600;
+  text-transform: uppercase; /* Make it more distinct */
+}
+
+/* Paragraph Styling */
+.npm-container p {
+  font-size: 1.2rem;
+  line-height: 1.8; /* Increased line height for readability */
+  color: #cfcfcf; /* Soft white for better readability */
+  margin-bottom: 15px; /* Space below paragraphs */
+  text-align: justify;
+}
+
+/* List Styling */
+.npm-container ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  color: #32cd32; /* Green bullets */
+}
+
+.npm-container li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Inline Code Styling */
+.npm-container code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #444;
+  color: #32cd32;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+/* Code Block Styling */
+.npm-container pre {
+  background-color: #333; /* Darker background for code */
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  overflow-x: auto;
+  color: #eee;
+  font-size: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Subtle shadow for code blocks */
+}
+
+.npm-container pre p {
+  color: #32cd32; /* Green for enhanced readability */
+}
+
+/* Link Styling */
+.npm-container a {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.npm-container a:hover {
+  color: #32cd32; /* Green on hover */
+  text-decoration: underline;
+}

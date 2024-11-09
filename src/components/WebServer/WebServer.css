@@ -1,0 +1,103 @@
+/* General Container Styling */
+.webserver-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+  background-color: #1F2937; /* Slightly darker background for elegance */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  max-width: 850px; /* Limit width for readability */
+  margin: 0 auto; /* Center align the container */
+  border-radius: 8px;
+}
+
+/* Main Heading */
+.webserver-page h1 {
+  font-size: 2.7rem;
+  color: #32cd32; /* Bright green for main heading */
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Subheading Styling */
+.webserver-page h2 {
+  font-size: 1.8rem;
+  color: #f5f5f5; /* Soft white for better contrast */
+  margin-top: 25px;
+  border-bottom: 3px solid #32cd32; /* Green accent line */
+  padding-bottom: 8px;
+  font-weight: 600;
+  text-transform: uppercase; /* Distinct styling */
+}
+
+/* Tertiary Heading */
+.webserver-page h3 {
+  font-size: 1.5rem;
+  color: #f0f0f0; /* Soft white */
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+/* Paragraph Styling */
+.webserver-page p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #dcdcdc; /* Light gray for readability */
+  margin-bottom: 15px; /* Space below paragraphs */
+  text-align: justify;
+}
+
+/* List Styling */
+.webserver-page ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  color: #32cd32; /* Green bullets */
+}
+
+.webserver-page li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Inline Code Styling */
+.webserver-page code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #444; /* Darker background for contrast */
+  color: #32cd32;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+/* Code Block Styling */
+.webserver-page pre {
+  background-color: #333; /* Darker background for code blocks */
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  overflow-x: auto;
+  font-size: 1rem;
+  color: #eee;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+.webserver-page pre code {
+  white-space: pre-wrap; /* Ensure long lines wrap in code blocks */
+}
+
+/* Divider Styling */
+.section-divider {
+  height: 2px;
+  background-color: #444;
+  margin: 40px 0;
+  border-radius: 1px;
+}
+
+/* Conclusion Section */
+.conclusion-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.conclusion-section p {
+  font-size: 1.2rem;
+  color: #d3d3d3;
+}

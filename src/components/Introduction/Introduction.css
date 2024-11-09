@@ -1,0 +1,117 @@
+/* Container Styling */
+.introduction {
+  background-color: #1F2937; /* Dark background for contrast */
+  color: #dcdcdc; /* Light text for readability */
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Heading */
+.introduction h1 {
+  font-size: 2.8rem;
+  color: #32cd32; /* Bright green for the main heading */
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Section Heading */
+.introduction h2 {
+  font-size: 2rem;
+  color: #f5f5f5;
+  margin-top: 30px;
+  border-bottom: 3px solid #32cd32; /* Green accent underline */
+  padding-bottom: 8px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Subheading */
+.introduction h3 {
+  font-size: 1.6rem;
+  color: #e8e8e8;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+/* Paragraph Styling */
+.introduction p {
+  font-size: 1.1rem;
+  color: #dcdcdc;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Code Block Styling */
+.introduction pre {
+  background-color: #2a2a2a; /* Slightly lighter background for code blocks */
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.introduction code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #3b3b3b; /* Dark background for code */
+  color: #32cd32;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle inner shadow */
+}
+
+/* Link Styling */
+.introduction a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.introduction a:hover {
+  color: #ffda79;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .introduction {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .introduction h1 {
+    font-size: 2.4rem;
+  }
+
+  .introduction h2 {
+    font-size: 1.6rem;
+  }
+
+  .introduction h3 {
+    font-size: 1.4rem;
+  }
+
+  .introduction p {
+    font-size: 1rem;
+  }
+
+  .introduction pre {
+    padding: 12px;
+  }
+
+  .introduction code {
+    font-size: 1rem;
+  }
+}

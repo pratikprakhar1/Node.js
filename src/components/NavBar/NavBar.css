@@ -1,0 +1,120 @@
+/* General Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1F2937; /* Dark gray background */
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Logo styling */
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 60px; /* Reduced size for cleaner look */
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.nav-logo img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Main menu styling for larger screens */
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+}
+
+.nav-menu li {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Link styling */
+.nav-menu li a {
+  color: #f0f0f0; /* Light gray */
+  font-size: 17px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-menu li a:hover {
+  color: #32cd32; /* Lime green for hover effect */
+}
+
+/* Active link styling */
+.nav-menu li a.active {
+  color: #32cd32;
+  font-weight: bold;
+}
+
+/* Underline for active items */
+.nav-menu li hr {
+  position: absolute;
+  width: 100%;
+  bottom: -5px;
+  border: 1px solid #32cd32;
+  border-radius: 5px;
+}
+
+/* Dropdown icon styling (for smaller screens) */
+.nav-dropdown {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  transition: transform 0.3s ease;
+}
+
+.nav-dropdown:hover {
+  transform: rotate(90deg); /* Rotate icon for feedback */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+
+  /* Display menu when toggled */
+  .nav-menu-visible {
+    display: flex;
+    animation: slideDown 0.3s ease;
+  }
+
+  /* Show dropdown icon on smaller screens */
+  .nav-dropdown {
+    display: block;
+  }
+}
+
+/* Animation for dropdown menu */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
